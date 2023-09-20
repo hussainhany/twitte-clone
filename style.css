@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #00acee;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+header img {
+  border-radius: 30px;
+  padding: 20px 30px;
+  background-color: #0078a0;
+}
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #00acee;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  background-color: #00acee;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0078a0;
+}
+
+.tweet button {
+  display: inline-block;
+  margin: 10px;
+}
+
+.username::before {
+  content: "Author : ";
+}
+
+.tweet-content::before {
+  content: 'tweet : ';
+}
